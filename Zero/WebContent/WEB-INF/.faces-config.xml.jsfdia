@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#Giris.xhtml" PATH="/Giris.xhtml"
+  SHAPE="322,237,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#Giris.xhtml:0" NAME="item"
+   PATH="/Giris.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="dogru::#Giris2.xhtml" NAME="output"
+    PATH="/Giris2.xhtml" TARGET="rules:#Giris2.xhtml" TITLE="dogru" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#Giris2.xhtml" PATH="/Giris2.xhtml"
+  SHAPE="600,200,50,25" model-entity="JSFProcessGroup" persistent="true"/>
+</PROCESS>
